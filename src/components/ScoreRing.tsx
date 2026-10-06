@@ -14,6 +14,7 @@ export default function ScoreRing() {
           style={styles.shieldIcon}
         />
       </View>
+
       <View style={styles.kidney}>
         <MaterialCommunityIcons
           name="water-outline"
@@ -105,6 +106,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: colors.textMuted,
   },
+
   shield: {
     position: "absolute",
     left: 147,
