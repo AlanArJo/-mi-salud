@@ -3,12 +3,15 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import Header from "../components/Header";
 import TabBar from "../components/TabBar";
 import { colors } from "../constants/colors";
+import ScoreRing from '../components/ScoreRing';
+
 
 export default function Index() {
   return (
     <SafeAreaView style={styles.screen}>
       <View style={styles.content}>
         <Header />
+        <ScoreRing />
         {/* COMPONENTS: add each one right above this line */}
       </View>
       <TabBar />
