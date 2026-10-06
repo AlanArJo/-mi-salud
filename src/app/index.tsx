@@ -3,11 +3,10 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import Actions from "../components/Actions";
 import AssistantCard from "../components/AssistantCard";
 import Header from "../components/Header";
+import HealthSystems from "../components/HealthSystems";
 import ScoreRing from "../components/ScoreRing";
 import TabBar from "../components/TabBar";
 import { colors } from "../constants/colors";
-import HealthSystems from '../components/HealthSystems';
-
 
 export default function Index() {
   return (
@@ -18,15 +17,18 @@ export default function Index() {
         <Actions />
         <AssistantCard />
         <HealthSystems />
-
         {/* COMPONENTS: add each one right above this line */}
       </View>
       <TabBar />
     </SafeAreaView>
   );
 }
+
 const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.background },
+  screen: {
+    flex: 1,
+    backgroundColor: colors.background,
+  },
   content: {
     flex: 1,
     paddingHorizontal: 20,

@@ -10,7 +10,7 @@ export default function AssistantCard() {
         semana pasada
       </Text>
       <Pressable style={styles.button}>
-        <Text style={styles.buttonText}>Conversemos</Text>
+        <Text style={styles.buttonText}>Hablemos</Text>
       </Pressable>
     </View>
   );
