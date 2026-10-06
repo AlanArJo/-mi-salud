@@ -6,6 +6,8 @@ import Header from "../components/Header";
 import ScoreRing from "../components/ScoreRing";
 import TabBar from "../components/TabBar";
 import { colors } from "../constants/colors";
+import HealthSystems from '../components/HealthSystems';
+
 
 export default function Index() {
   return (
@@ -15,6 +17,7 @@ export default function Index() {
         <ScoreRing />
         <Actions />
         <AssistantCard />
+        <HealthSystems />
 
         {/* COMPONENTS: add each one right above this line */}
       </View>
